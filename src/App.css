@@ -19,3 +19,12 @@
     text-decoration-line: line-through;
     color: #b1afaf;
 }
+
+.more_task {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.more_task input[name="new_task"] { width: 600px;}
